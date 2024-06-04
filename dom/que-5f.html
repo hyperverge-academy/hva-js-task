@@ -1,0 +1,67 @@
+<!-- 5f. Create a <div> and four buttons. Each button represents a font size: Small, Medium, Large, Extra Large. When a button is clicked,
+the font size of the <div> changes to the corresponding size. By default, the font size of the <div> is medium. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change font size</title>
+    <style>
+        #myDiv {
+            width: 400px;
+            height: 200px;
+            border: 1px solid #1f050583;
+            font-size: medium;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            margin: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="myDiv">Change font size</div>
+    <button id="smallButton">Small</button>
+    <button id="mediumButton">Medium</button>
+    <button id="largeButton">Large</button>
+    <button id="extraLargeButton">Extra Large</button>
+
+    <script>
+        const div = document.querySelector('#myDiv');
+        function changeFontSize(size) {
+            myDiv.style.fontSize = size;
+        }
+
+        document.querySelector('#smallButton').addEventListener('click', function () {
+            changeFontSize('12px');
+        });
+
+        document.querySelector('#mediumButton').addEventListener('click', function () {
+            changeFontSize('16px');
+        });
+
+
+
+        document.querySelector('#largeButton').addEventListener('click', function () {
+            changeFontSize('20px');
+        });
+
+        document.querySelector('#extraLargeButton').addEventListener('click', function () {
+            changeFontSize('24px');
+        });
+
+
+
+    </script>
+
+</body>
+
+</html>

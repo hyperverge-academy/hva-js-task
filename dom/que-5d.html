@@ -1,0 +1,33 @@
+<!-- 5d. Create an HTML file with multiple <div> elements, each containing different text. Using JavaScript, add a click event
+listener to each <div> element that toggles the background color of that particular <div> between red and white. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            padding: 20px;
+            border: 1px solid #040000;
+            margin: 10px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo cumque dicta rem a quae maxime.</div>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, nulla.</div>
+</body>
+<script>
+    const divs = document.querySelectorAll('div');
+    divs.forEach(div => {
+        div.addEventListener('click', () => {
+            div.style.backgroundColor = div.style.backgroundColor === 'white'? 'red' : 'white';
+        })
+    })
+</script>
+</html>

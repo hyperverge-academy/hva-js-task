@@ -1,0 +1,101 @@
+// DOM
+
+
+// 1. Fetching HTML Elements:
+
+// a. Create an HTML file with a <div> element that has an ID attribute set to "myDiv" and contains the text "Hello, World!".
+// Using JavaScript, fetch the element with the ID "myDiv" and log its content to the console.
+
+
+// b. Create an HTML file with two or more <div> elements that have the same class "myClass" but contain different text.
+// Using JavaScript, fetch all the elements with the class "myClass" and log their contents to the console.
+
+
+// c. Create an HTML file with two or more <p> elements, each containing different text. Using JavaScript, fetch all the <p> elements
+// and log their contents to the console.
+
+
+// d. Query Selector: Create an HTML file with a <div> element that has an ID attribute set to "myDiv" and contains the text
+// "Hello, World!", and a <p> element with a class attribute set to "myClass" and contains the text "Paragraph". Using JavaScript,
+// fetch the <div> element using the ID selector (#myDiv) and log its contents to the console. Then, fetch the <p> element using the
+// class selector (.myClass) and log its contents to the console.
+
+
+
+// 2. Creating and Deleting Elements:
+
+// a. Create an HTML file with a <ul> element (empty or with some list items). Using JavaScript, add a new <li> element to the
+// <ul> with the text "New Item".
+
+// b. Create an HTML file with a <ul> element containing several <li> items. Using JavaScript, remove the first <li> item from the <ul>.
+
+
+
+// 3. Modifying Elements:
+
+// a. Create an HTML file with a <p> element containing some text. Using JavaScript, change the text content of the <p>
+// element to  "New Text".
+
+
+// b. Create an HTML file with a <div> element containing some text. Using JavaScript, change the HTML content of the <div> element 
+// to <b>New Text</b>.
+
+
+// c. Create an HTML file with a <p> element with ID attribute set to "myParagraph". Using JavaScript, change the font color of
+// the <p> element to red.
+
+
+// d. Create an HTML file with an <a> element with href attribute set to "https://www.google.com/". Using JavaScript, change the href
+// attribute of the <a> element to "https://www.facebook.com/".
+
+
+// e. Create an HTML file with a <div> element containing some text. In the CSS, define a style for the "myClass" class that sets the
+// font color to red. Using JavaScript, add a class attribute to the <div> element with the value "myClass" so that the text in the
+// <div> element appears red in color.
+
+
+
+// 4. Events:
+
+// a. Create an HTML button element with some text. Using JavaScript, add a click event listener to the button that logs
+// "Button clicked!" to the console when clicked.
+
+
+// b. Create an HTML div element with some text. Using JavaScript, add a mouseover event listener to the div that changes the text
+// color of the div to red when the mouse is over it.
+
+
+// c. Create an HTML input element. Using JavaScript, add an input event listener to the input that logs the input value to the
+// console whenever it changes.
+
+
+// d. Create a <button> element and a <div> element. When the button is clicked, toggle the visibility of the <div> element.
+
+
+
+// 5. Combined:
+
+// a. Create an HTML form element with an input and a submit button. Using JavaScript, add a submit event listener to the form
+// that prevents the default form submission and logs "Form submitted!" to the console.
+
+
+// b. Create an HTML file with a <div> element. Using JavaScript, add a mousemove event listener to the <div> element that displays
+// the current mouse coordinates (x, y) inside the <div> as the mouse moves.
+
+
+// c. Create an HTML file with multiple <p> elements, each containing different text. Using JavaScript, add a mouseover event
+// listener to each <p> element that changes the text color of that particular paragraph to red when the mouse is over it.
+
+
+// d. Create an HTML file with multiple <div> elements, each containing different text. Using JavaScript, add a click event
+// listener to each <div> element that toggles the background color of that particular <div> between red and white.
+
+
+// e. Create a <div> element and four buttons. Each button corresponds to a color: red, yellow, blue, and green. 
+// When a button is clicked, the background color of the <div> changes to the color of the button. By default, the background 
+// color of the <div> is white.
+
+
+// f. Create a <div> and four buttons. Each button represents a font size: Small, Medium, Large, Extra Large. When a button is clicked,
+// the font size of the <div> changes to the corresponding size. By default, the font size of the <div> is medium.
+        
