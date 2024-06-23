@@ -1,0 +1,34 @@
+<!-- 5c. Create an HTML file with multiple <p> elements, each containing different text. Using JavaScript, add a mouseover event
+listener to each <p> element that changes the text color of that particular paragraph to red when the mouse is over it. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            padding: 10px;
+            border: 1px solid #e1101053;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni, minima! Neque?</p>
+</body>
+<script>
+    const paras = document.querySelectorAll('p')
+    paras.forEach(para => {
+        para.addEventListener('mouseover', () => {
+            para.style.color ='red'
+        })
+    })
+
+</script>
+</html>

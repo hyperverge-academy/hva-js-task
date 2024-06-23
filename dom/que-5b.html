@@ -1,0 +1,39 @@
+<!-- 5b. Create an HTML file with a <div> element. Using JavaScript, add a mousemove event listener to the <div> element that displays
+ the current mouse coordinates (x, y) inside the <div> as the mouse moves. -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #myDiv {
+            width: 300px;
+            height: 200px;
+            border: 1px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <div id="myDiv">Move your mouse hear.</div>
+</body>
+
+<script>
+const mouseDiv = document.getElementById("myDiv");
+mouseDiv.addEventListener('mouseover', (e)=>{
+    const x = e.offsetX;
+    const y = e.offsetY;
+
+    mouseDiv.textContent = `X: ${x}, Y: ${y}`;
+
+})
+</script>
+
+</html>
